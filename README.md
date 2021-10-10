@@ -1,1 +1,1 @@
-# my-practise-project
+# mle-training
