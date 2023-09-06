@@ -1,0 +1,29 @@
+{
+    "editor.formatOnSave": true,
+    "python.pythonPath": ".venv/bin/python3",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=88"
+    ],
+    "python.sortImports.args": [
+        "--profile",
+        "black",
+        "--float-to-top"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": ".venv/bin/flake8",
+    "python.linting.flake8Args": [
+        "--max-line-length=88"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+            "python.sortImports": true
+        },
+        "editor.formatOnType": true
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\radhika.mirani\\Anaconda3\\python.exe",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "jupyter.askForKernelRestart": false
+}
